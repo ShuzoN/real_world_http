@@ -5,7 +5,13 @@ import (
 	"log"
 	"net/http"
 	"io/ioutil"
-	"github.com/k0kubun/pp" //https://github.com/k0kubun/pp
+
+	//when i wanna use k0kubun/pp, should clone these repository shown below
+	//https://github.com/k0kubun/pp
+	//https://github.com/mattn/go-colorable
+	//https://github.com/mattn/go-isatty
+	"github.com/k0kubun/pp" 
+
 )
 
 func handlerDigest(w http.ResponseWriter, r *http.Request) {
