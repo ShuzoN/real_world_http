@@ -6,10 +6,15 @@ https://www.oreilly.co.jp/books/9784873118048/
 ```sh
 // please check you already install homebrew
 $which brew
+
+// AND set your $GOPATH ~/go
+$echo $GOPATH
+/Users/yourname/go
 ```
 
 ```sh
-$mkdir -l ~/go/src/
+$mkdir -p ~/go/src/github.com/ShuzoN
+$cd ~/go/src/github.com/ShuzoN
 $git clone git@github.com:ShuzoN/real_world_http.git
 $cd ~/go/src/github.com/ShuzoN/real_world_http
 $make install
