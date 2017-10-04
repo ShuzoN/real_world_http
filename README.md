@@ -3,6 +3,7 @@ https://www.oreilly.co.jp/books/9784873118048/
 
 ### set up for mac
 
+check env
 ```sh
 // please check you already install homebrew
 $ which brew
@@ -13,13 +14,14 @@ $ echo $GOPATH
 /Users/yourname/go
 ```
 
+install
 ```sh
 $ mkdir -p ~/go/src/github.com/ShuzoN && cd $_
 $ git clone git@github.com:ShuzoN/real_world_http.git real_world_http && cd $_
 $ make install
 ```
 
+boot server
 ```sh
-// boot server
 $ make server
 ```
