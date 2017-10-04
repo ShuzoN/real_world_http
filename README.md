@@ -5,11 +5,11 @@ https://www.oreilly.co.jp/books/9784873118048/
 
 check env
 ```sh
-// please check you already install homebrew
+# Please check you already install homebrew
 $ which brew
 /usr/local/bin/brew
 
-// AND set your $GOPATH ~/go
+# Set your $GOPATH ~/go
 $ echo $GOPATH
 /Users/yourname/go
 ```
