@@ -14,10 +14,8 @@ $ echo $GOPATH
 ```
 
 ```sh
-$ mkdir -p ~/go/src/github.com/ShuzoN
-$ cd ~/go/src/github.com/ShuzoN
-$ git clone git@github.com:ShuzoN/real_world_http.git
-$ cd ~/go/src/github.com/ShuzoN/real_world_http
+$ mkdir -p ~/go/src/github.com/ShuzoN && cd $_
+$ git clone git@github.com:ShuzoN/real_world_http.git real_world_http && cd $_
 $ make install
 ```
 
