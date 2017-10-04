@@ -4,7 +4,7 @@ https://www.oreilly.co.jp/books/9784873118048/
 
 ### set up
 ```sh
-// please chech you already install homebrew
+// please check you already install homebrew
 $which brew
 ```
 
