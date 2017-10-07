@@ -34,7 +34,6 @@ func handlerDigest(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	var httpServer http.Server
-	// http.HandleFunc("/", handler)
 	http.HandleFunc("/digest", handlerDigest)
 	log.Println("start http listening :18888")
 	httpServer.Addr = ":18888"
