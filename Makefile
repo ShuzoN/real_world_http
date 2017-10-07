@@ -1,5 +1,7 @@
 all: help
 
+CURRENT_DIR=$(shell pwd)
+
 help: 
 	"install"
 
@@ -12,3 +14,6 @@ server:
 
 server_digest:
 	/usr/local/bin/go run server_digest.go
+
+client:
+	/usr/local/bin/go run $(CURRENT_DIR)/simpleget/client.go
