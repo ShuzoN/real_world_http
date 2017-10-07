@@ -18,5 +18,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	log.Println(string(body))
+	log.Println("Status", resp.Status)
+	log.Println("Header", resp.Header)
+	log.Println("Body: ", string(body))
 }
