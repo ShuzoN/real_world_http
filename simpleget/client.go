@@ -15,6 +15,7 @@ func main() {
 
 	// response
 	resp, err := http.Get("http://localhost:18888" + "?" + values.Encode())
+	//resp, err := http.Head("http://localhost:18888")
 	if err != nil {
 		panic(err)
 	}
@@ -28,4 +29,5 @@ func main() {
 	log.Println("Status", resp.Status)
 	log.Println("Header", resp.Header)
 	log.Println("Body: ", string(body))
+	log.Println("Content-Lnegth:", resp.Header.Get("Content-Length"))
 }
